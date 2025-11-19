@@ -129,7 +129,7 @@ const HeroSection = () => {
                             <img
                                 src="/images/img_rectangle.png"
                                 alt=""
-                                className="absolute left-1/2 transform -translate-x-1/2 lg:left-[56px] lg:transform-none w-[297px] h-[450px] sm:w-[445px] sm:h-[675px] lg:w-[710px] lg:h-[900px] object-cover"
+                                className="absolute left-1/2 transform -translate-x-1/2 lg:left-[72px] lg:transform-none w-[297px] h-[450px] sm:w-[445px] sm:h-[675px] lg:w-[710px] lg:h-[900px] object-cover"
                             />
 
                             {/* Investment Dashboard Card */}
@@ -284,7 +284,7 @@ const HeroSection = () => {
                             </div>
 
                             {/* Investor Profile Card - Matching Figma Design */}
-                            <div className="absolute top-[80px] sm:top-[120px] lg:top-[-20px] right-[15px] sm:right-[30px] lg:left-[486px] w-[280px] sm:w-[300px] lg:w-[340px] bg-white rounded-[24px] shadow-md overflow-hidden">
+                            <div className="absolute top-[80px] sm:top-[120px] lg:top-[-20px] right-[15px] sm:right-[30px] lg:left-[507px] w-[280px] sm:w-[300px] lg:w-[340px] bg-white rounded-[24px] shadow-md overflow-hidden">
 
                                 {/* Profile Header with Background */}
                                 <div className="relative">
@@ -298,7 +298,7 @@ const HeroSection = () => {
                                     {/* Profile Image - Overlapping */}
                                     <div className="absolute left-4 -bottom-6 z-10">
                                         <img
-                                            src="/images/img_ellipse_49.png"
+                                            src="/images/craig.svg"
                                             alt="Julie Craig"
                                             className="w-[96px] h-[96px] rounded-full border-4 border-white object-cover shadow-md"
                                         />

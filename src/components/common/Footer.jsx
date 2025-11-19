@@ -49,7 +49,7 @@ const Footer = () => {
                         </button>
 
                         {/* Social Icons */}
-                        <div className="flex gap-6">
+                        <div className="flex gap-1">
                             {/* Facebook */}
                             <a href="#" className="w-16 h-16 flex items-center justify-center" aria-label="Facebook">
                                 <svg width="64" height="64" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -201,7 +201,7 @@ const Footer = () => {
 
                     {/* Center - Divider and Logo */}
                     <div className="hidden lg:flex lg:col-span-1 justify-center">
-                        <div className="w-px bg-gray-600 mx-8"></div>
+                        <div className="w-px bg-gray-600 mx-8 translate-x-[90px]"></div>
                     </div>
 
                     {/* Center Logo */}
