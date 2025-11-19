@@ -8,28 +8,31 @@ const AboutSection = () => {
             description: 'Lilypads is the cloud-based real estate investment platform that helps you make data-driven investment decisions and assists with reaching your long term investment objectives.'
         },
         {
-            icon: '/images/img_group_48096378.svg',
-            title: 'Lilypads can help you make smarter decisions.',
-            description: 'Streamline your investment evaluation process and collaborate in reaching your long term investment objectives'
-        }
-    ];
-
-    const services = [
-        {
-            icon: '/images/img_group_48096374.svg',
-            title: 'Manager Due Diligence',
-            description: 'Evaluate managers against your objectives using traditional risk metrics with the addition of factor analysis. All it takes is a set of returns'
-        },
-        {
             icon: '/images/img_group_48096375.svg',
             title: 'Optimize Asset Allocation',
             description: 'Understand the underlying risk drivers in your portfolio using the Lilypads analysis factors and then optimize that portfolio based on objectives'
         },
         {
+            icon: '/images/img_group_48096374.svg',
+            title: 'Manager Due Diligence',
+            description: 'Evaluate managers against your objectives using traditional risk metrics with the addition of factor analysis. All it takes is a set of returns'
+        }
+
+    ];
+
+    const services = [
+        {
+            icon: '/images/img_group_48096378.svg',
+            title: 'Lilypads can help you make smarter decisions.',
+            description: 'Streamline your investment evaluation process and collaborate in reaching your long term investment objectives'
+        },
+        {
             icon: '/images/img_group_48096376.svg',
             title: 'Our Subscribers',
             description: 'Serving a constellation of global subscribers Pension funds, Funds of Funds, Banks, Family offices, Asset managers, Wealth Managers'
-        }
+        },
+
+
     ];
 
     return (
