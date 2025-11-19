@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        /* Primary Colors */
+        --primary-background: #7d59c3;
+        --primary-foreground: #ffffff;
+        --primary-light: #7c5ac7;
+        --primary-dark: #6b4db3;
+
+        /* Secondary Colors */
+        --secondary-background: #009639;
+        --secondary-foreground: #ffffff;
+        --secondary-light: #00963935;
+        --secondary-dark: #007a2f;
+
+        /* Accent Colors */
+        --accent-background: #9e2349;
+        --accent-foreground: #ffffff;
+        --accent-light: #b52855;
+        --accent-dark: #881e3f;
+
+        /* Neutral Colors */
+        --neutral-background: #f5f4f8;
+        --neutral-foreground: #2f3130;
+        --neutral-light: #ebf8f0;
+        --neutral-dark: #f2eff9;
+
+        /* Text Colors */
+        --text-primary: #2f3130;
+        --text-secondary: #2f31307f;
+        --text-success: #36b368;
+        --text-accent: #7c5ac7;
+
+        /* Background Colors */
+        --bg-main: #ffffff;
+        --bg-overlay: #00000019;
+        --bg-card: #f5f4f8;
+        --bg-success: #ebf8f0;
+
+        /* Border Colors */
+        --border-primary: #2f31304c;
+        --border-secondary: #7c5ac7;
+        --border-light: #ffffff4c;
+        --border-accent: #ffffff;
+
+        /* Component Colors */
+        --header-background: #ffffff;
+        --header-text: #2f3130;
+        --button-primary-bg: #7d59c3;
+        --button-primary-text: #ffffff;
+        --button-secondary-bg: #ffffff;
+        --button-secondary-text: #7d59c3;
+        --progress-bar-bg: #009639;
+        --icon-button-bg: #ffffff;
+
+        /* Typography Variables */
+        --font-size-xs: 12px;
+        --font-size-sm: 14px;
+        --font-size-base: 16px;
+        --font-size-lg: 18px;
+        --font-size-xl: 21px;
+        --font-size-2xl: 36px;
+        --font-size-3xl: 71px;
+
+        /* Font Weight Variables */
+        --font-weight-normal: 400;
+        --font-weight-medium: 500;
+        --font-weight-semibold: 600;
+        --font-weight-bold: 700;
+        --font-weight-black: 900;
+
+        /* Line Height Variables */
+        --line-height-xs: 14px;
+        --line-height-sm: 15px;
+        --line-height-base: 16px;
+        --line-height-md: 18px;
+        --line-height-lg: 20px;
+        --line-height-xl: 23px;
+        --line-height-2xl: 45px;
+        --line-height-3xl: 92px;
+
+        /* Spacing Variables */
+        --spacing-xs: 4px;
+        --spacing-sm: 8px;
+        --spacing-md: 12px;
+        --spacing-lg: 16px;
+        --spacing-xl: 20px;
+        --spacing-2xl: 24px;
+        --spacing-3xl: 30px;
+        --spacing-4xl: 40px;
+        --spacing-5xl: 52px;
+        --spacing-6xl: 78px;
+
+        /* Border Radius Variables */
+        --radius-none: 0px;
+        --radius-xs: 3px;
+        --radius-sm: 4px;
+        --radius-md: 20px;
+        --radius-lg: 24px;
+        --radius-xl: 44px;
+        --radius-2xl: 48px;
+        --radius-full: 50px;
+
+        /* Layout Variables */
+        --width-logo: 90px;
+        --width-icon: 48px;
+        --width-container: 94%;
+    }
+}
